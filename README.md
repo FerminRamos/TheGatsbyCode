@@ -30,3 +30,14 @@ that all of Drosnin's predictions are based on statistical chance, rather than o
 
 
 ### Fermin Ramos' "The Gatsby Code" Methodology
+
+
+### Included Files + Usage
+1. ***"Book.txt"*** - Temporary text file. Used to manipulate the original text. This is strictly used for testing purposes. Will not be included in the final product.
+2. ***"The Great Gatsby Full Text.txt"*** - Is the original, full-text, book of The Great Gatsby. This book version has been edited slightly to eliminate all unnecessary words//phrases. For example, it has removed all Onomatopoeias from the text, as they would not appear in our dictionary. I also removed all Chapter titles, as I do not regard those as being part of the "text". 
+3. ***"Book.py"*** - Is a separate python file used in conjunction with the main.py file. Book.py holds a single python function, whose whole purpose is to read the text and pull all the needed words into an array for later use. More details can be found in the Book.py file. 
+4. ***"Dictionary.py"*** - Is a separate python file used in conjunction with the main.py file. Dictionary.py holds a single dictionary that spans to nearly 10,000 lines of code. This dictionary was acquired using google's 10,000 most used common words. The spacing of the dictionary may appear "jagged", but that is because all 10,000 lines of code were written using an automated python script. The file works and is perfectly readable. More details can be found in the Dictionary.py file. 
+5. ***"google-10000-english-no-swears.txt"*** - Is an altered version of google's dictionary. It contains the 10,000 most common english words (excluding swear words). I used the 10,000 most common words instead of the first 10,000 words on an ordinary dictionary because common every-day terms would appear more frequently and thus be more useful. 
+6. ***"google.py"*** - Is a separate python file used in conjunction with the main.py file. google.py holds a single python function, whose whole purpose is to read
+the "google-10000-english-no-swears.txt" file and cross-referrence our words that we pulled from The Great Gatsby with those from google's dictionary. If a word matches in ***both*** instances, then we can safely use that word to create a prophecy. More details can be found in the google.py file. 
+7. ***"main.py"*** - The main python file. Details on algorithms, how-to-use, and other mechanics can be found in the README.md file. 
