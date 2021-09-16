@@ -84,30 +84,4 @@ book.close()
 # Test Dictionary
 
 
-# TODO: This is for the main part of your code that makes
-#  sentences. You'll have an array of different word types
-#  (nounArray, verArray, etc.). You need to match words from
-#  your word bank with a hashmap of all the different words
-#  from the dictionary. If wordBank word matches key, then
-#  check that key's value to see what word type it is (verb,
-#  noun, etc.). If noun, then move word from wordBank array
-#  to nounArray.
-#  Moving On, you're going to make a while loop ( i < 3) to
-#  make 3 sentences. Inside of that, you're going to have a
-#  random number generator that tells you what type of
-#  sentence to make (verb first, then noun, etc. OR
-#  noun first, then verb, etc.). The random number generator
-#  will give you an option of 1-3 (or more if you choose to
-#  expand). This corresponds to a branch of a switch statement
-#  (Ex, branch 1 = #1). Inside each branch, you're going to
-#  switch (hahaha, get it?) the order in which you're going to
-#  pick // print the words from the nouns//verbs arrays. To
-#  avoid repeating code, just make a function that receives
-#  an array -> calls the random num generator -> and outputs
-#  a word from the array. Which array is passed is up to the
-#  switch branches.
-
-# TODO: Tense is important! Figure out how how read past, present,
-#  and future tense for sentences. ***PROGRAM IS ABOUT PROPHECY!!!!***
-#  So only future // past tense words shall be used!!!!! (Bc future-only
-#  tense doesn't have a lot of combinations for word structures)
+# TODO: Implement logic...
